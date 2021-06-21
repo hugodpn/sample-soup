@@ -63,17 +63,6 @@ const soupApp = (dataset, word) => {
     dataset.forEach(dataset => console.info(soupCount(dataset, word)));
 };
 
-// const WORD = "OIE";
-
-// const arr1 = ["OIE", "IIX", "EXE"];
-// const arr2 = ["EIOIEIOEIO"];
-// const arr3 = ["EAEAE", "AIIIA", "EIOIE", "AIIIA", "EAEAE"];
-// const arr4 = ["OX", "IO", "EX", "II", "OX", "IE", "EX"];
-// const arr5 = ["E"];
-
-// const DATASET = [arr1, arr2, arr3, arr4, arr5];
-// soupApp(DATASET, WORD);
-
 const app = async () => {
     
     console.info("Starting search word in soup");
